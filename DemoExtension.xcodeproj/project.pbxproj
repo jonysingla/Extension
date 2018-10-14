@@ -12,6 +12,8 @@
 		F036681D1E7FBB45000A5010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F036681B1E7FBB45000A5010 /* Main.storyboard */; };
 		F036681F1E7FBB45000A5010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F036681E1E7FBB45000A5010 /* Assets.xcassets */; };
 		F03668221E7FBB45000A5010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03668201E7FBB45000A5010 /* LaunchScreen.storyboard */; };
+		F036682A1E7FBB6C000A5010 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03668291E7FBB6C000A5010 /* secondViewController.swift */; };
+		F036682C1E7FD65D000A5010 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F036682B1E7FD65D000A5010 /* UtilityClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F036681E1E7FBB45000A5010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F03668211E7FBB45000A5010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F03668231E7FBB45000A5010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03668291E7FBB6C000A5010 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		F036682B1E7FD65D000A5010 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		F036680B1E7FBB45000A5010 = {
 			isa = PBXGroup;
 			children = (
+				F036682B1E7FD65D000A5010 /* UtilityClass.swift */,
+				F03668291E7FBB6C000A5010 /* secondViewController.swift */,
 				F03668161E7FBB45000A5010 /* DemoExtension */,
 				F03668151E7FBB45000A5010 /* Products */,
 			);
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F036681A1E7FBB45000A5010 /* ViewController.swift in Sources */,
+				F036682A1E7FBB6C000A5010 /* secondViewController.swift in Sources */,
 				F03668181E7FBB45000A5010 /* AppDelegate.swift in Sources */,
+				F036682C1E7FD65D000A5010 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
